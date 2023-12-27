@@ -1,0 +1,22 @@
+{
+	"name": "Bash 4.1 Base vscode dev container - 01",
+    "build": {
+        "dockerfile": "./base/Dockerfile"
+    },
+	"customizations": {
+		"vscode": {
+		  "extensions": [
+			"streetsidesoftware.code-spell-checker",
+			"stkb.rewrap",
+			"eamodio.gitlens",
+			"redhat.vscode-yaml",
+			"mhutchie.git-graph",
+			"hookyqr.beautify",
+			"yzhang.markdown-all-in-one"
+			],
+		"settings": { 
+			"terminal.integrated.shell.linux": "/bin/bash"
+		}
+	  },
+    "remoteUser": "vscode"
+}
